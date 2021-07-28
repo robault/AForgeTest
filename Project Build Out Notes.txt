@@ -1,0 +1,41 @@
+﻿Next project needs:
+
+1. A good name
+	a. PALLAS: http://en.wikipedia.org/wiki/Pallas_%28son_of_Crius%29 (Pallas (Πάλλας) is a Titan, associated with war.)
+	b. KOIOS (or Coeus) was one of the Titan gods, sons of Ouranos (Sky) and Gaia (Earth). http://www.theoi.com/Titan/TitanKoios.html http://www.answers.com/topic/koios
+		http://wiki.answers.com/Q/How_do_you_pronounce_Koios  "the "oi" is actually said " ee" as in TREE. so you can say it kee-yos.
+2. Library project for helper classes
+	a. imaging
+	b. keyboard
+	c. histogram
+	d. pixel
+3. Winform project (can I do this in WPF?)
+	a. only "view" or UI code, try not to go into other library code <-- seperation of concerns
+
+	UI ELEMENTS:
+		1. Image thumbnails
+			a. Camera source
+			b. Detected objects
+			c. Detected motion
+			d. Overall histogram image
+			e. 
+
+4. Tracing / logging library
+	a. event collection
+	b. saving to data source
+	c. event types
+	d. new event notification
+5. Project for Phidgets control, timers, threading etc...handle movement well
+	a. joystick class
+	b. interface kit class
+	c. servo controller class
+	d. servo class
+		1. handle movement
+6. AForge.NET wrapper library project 
+	a. setup types of filters
+7. My own object detection library for scanning bitmaps
+	a. blob detection
+	b. blob collection
+	c. difference detection
+	d. background averaging
+	e. differences over time collection
